@@ -7,7 +7,7 @@ controls.update()
 
 const geometry = new THREE.SphereGeometry(50, 32, 32)
 const textureLoader = new THREE.TextureLoader()
-const texture = textureLoader.load('360.jpg')
+const texture = textureLoader.load('3.jpg')
 const material = new THREE.MeshBasicMaterial( {
 	color: 0xffff00,
 	map: texture,
