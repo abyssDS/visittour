@@ -9,9 +9,9 @@ const geometry = new THREE.SphereGeometry(50, 32, 32)
 const textureLoader = new THREE.TextureLoader()
 const texture = textureLoader.load('3.jpg')
 const material = new THREE.MeshBasicMaterial( {
-	color: 0xffff00,
+	//color: 0xffff00,
 	map: texture,
-	//side: THREE.DoubleSide
+	side: THREE.DoubleSide
 })
 const sphere = new THREE.Mesh( geometry, material )
 scene.add( sphere )
